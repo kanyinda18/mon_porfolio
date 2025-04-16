@@ -1,0 +1,73 @@
+style>
+body {
+ font-family: Arial, sans-serif;
+ background-color: antiquewhite;
+ color: #333;
+ margin: 0px;
+}
+
+.left{
+ background-color: #6e0087;
+ color: rgb(255, 255, 255);
+ padding: 20px;
+ text-align: centre ;
+}
+
+.right{
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ gap: 20px;
+ flex-wrap: wrap;
+}
+.left img {
+   Width: 150px;
+   Border-radius: 10px;
+   Margin-top: 20px;
+}
+.header h1 {
+ margin: 0;
+ font-size:36px;
+ letter-spacing:2px;
+ color: aquamarine;
+}
+.header h2{
+ margin: 0;
+ font-size:36px;
+ letter-spacing:2px;
+ color: aquamarine;
+}
+
+.header h3{
+ margin: 0;
+ font-size:36px;
+ letter-spacing:2px;
+ color: aquamarine;
+}
+.right{
+ margin-top: 30px;
+}
+
+.left section-titre{
+ color: #005a87;
+ font-size: 22px;
+ margin-bottom:10px;
+ border-bottom:5px;
+}
+
+.right contact p{
+ margin:5px 0;
+}
+
+.list right{
+ list-style:none;
+ padding-left:0;
+}
+
+.list li::before {
+ content:".";
+ color:#005a87;
+ display: inline-block;
+ width:1em;
+ margin-left: -1em;
+}
